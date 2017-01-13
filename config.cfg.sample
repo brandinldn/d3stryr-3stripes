@@ -3,17 +3,17 @@
 # https://github.com/thenikedestroyer/d3stryr-3stripes/blob/master/docs/CONFIG.md
 
 [cart]
-masterPid = S80206
-mySizes = 3.5, 4, 4.5, 5, 5.5, 6, 9, 10, 11, 7, 42 2/3
+masterPid = S79168
+mySizes = 4, 4.5, 5, 5.5, 9, 10, 11, 13.5
 isYeezyProduct = False
 
 [locale]
-marketLocale = US
-parametersLocale = US
+marketLocale = GB
+parametersLocale = EU
 
 [captcha]
 proxy2Captcha = localhost
-apikey2captcha = xXx
+apikey2captcha = b4f64de1c7ea2b8ec2215f239fabe041
 processCaptcha = True
 processCaptchaDuplicate = False
 
@@ -28,7 +28,7 @@ useResponseFormatJSON = True
 [harvest]
 manuallyHarvestTokens = True
 numberOfTokens = 1
-harvestDomain = dev.adidas.com
+harvestDomain = dev.adidas.co.uk
 
 [clientId_Yeezy]
 US = 7796dee0b-5a1a-4c3c-afb7-c089cf6d3f12
@@ -63,7 +63,8 @@ duplicate = x-PrdRt
 
 [cookie]
 cookie = neverywhere=neverytime;
-preloadURL = http://www.adidas.com/us/nmd_r1-shoes/S80206.html/
+preloadURL = http://www.adidas.co.uk/nmd_r1-primeknit-shoes/S79168.html
+#preloadURL = http://www.adidas.co.uk/nmd_r1-primeknit-shoes/S79168.html?cm_mmc=AdieAffiliates_PHG-_-thesolesupplier-_-home-_-bs-&cm_mmca1=UK&dclid=CJ7UlqLBv9ECFW-M7QodtrsOPQ
 
 [script]
 scriptURL = None
